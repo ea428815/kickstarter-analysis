@@ -12,19 +12,17 @@ The purpose of this project is aimed to assist Louise to better ensure a success
 
 ### Analysis of Outcomes Based on Launch Date
 
-In order to analyze Outcomes based on the launch date a pivot table and a pivot chart based on that table were used. The original data did not have parent category column so I created this column by using the category and subcategory column. This was needed to be filtered according to theater in the pivot table. Launch date was given originally in the unix timestamps format so it was not readable, so I converted to the format,  day/month/year by using the formula, 
+In order to analyze Outcomes based on the launch date a pivot table and a pivot chart based on that table were used. The original data did not have parent category  for a header so this column was created using the category and subcategory column. This was needed to be filtered according to theater in the pivot table. Launch date was given originally in the unix timestamps format which was not readable, so converting to the format: day/month/year, 
 
 > =(((J2/60)/60)/24)+DATE(1970,1,1)
 
-The above formula format was changed from General to date. Where, J is the Column headed as "Launched_at" and the created new column was headed as "Date Created Conversion". Additionally, two more column were created: first "Years" column was created by using the formula
+Additionally, two more column were created to be able to analyze the data. Therefore "Years" and "Months" column were created using the following respectively,
 
 > = YEAR(Q2)
 
-and second "Months" column was created by the formula
-
 > = TEXT(Q2,"mmm")
 
-where Q is the column headed as "Date Created Conversion". After all, concerning pivot table and pivot chart were created which are given in the sheet named "Theater Outcomes by Launch Date" in the excel document named ![Kickstarter_Challenge](https://github.com/ea428815/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx). The main finding is the following line graph:
+Note that Q is the column headed as "Date Created Conversion". Next, using the dataset, the main finding is the following line graph:
 
 ![](./resources/Theater_Outcomes_vs_Launch.png)
 
