@@ -85,7 +85,7 @@ To be honest, It would be too difficult to decide in which ways and how I could 
 
 ## Results
 
-By the analysis of Outcomes bases on Launch Date, it can be concluded that for a campaign of theater the best month of the year is May. In every month of the year the number of successful campaigns is more than the number of failed campaigns. In addition to this, June, July, February, April and August are appropriate months to decide to launch a campaign in the given order to be more successful.
+By the analysis of Outcomes base on Launch Date, it can be concluded that for a campaign of theater the best month of the year is May. In every month of the year the number of successful campaigns is more than the number of failed campaigns. In addition to this, June, July, February, April and August are appropriate months to decide to launch a campaign in the given order to be more successful.
 
 If we consider the analysis of Outcomes based on Goals, an evidential conclusion can be made as the best amount of goals for more success chance is the one less than or equal to $ 15000. Although, the percentage successful for the amount of goals, from 35000 to 45000, is high enough; this does not fit with the general trend. We can not trust this information, it is needed to be more deeply analyzed in different perspectives.
 
