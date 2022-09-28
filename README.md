@@ -24,9 +24,7 @@ Additionally, two more column were created to be able to analyze the data. There
 
 Note that Q is the column headed as "Date Created Conversion". Next, using the dataset, the main finding is the following line graph:
 
-![](./resources/Theater_Outcomes_vs_Launch.png)
-
-![Theater Outcomes by Launch Date](https://user-images.githubusercontent.com/62758795/192656682-e4f6b8e3-6143-4a8b-a55a-2fb70ff61491.png)
+https://user-images.githubusercontent.com/62758795/192656682-e4f6b8e3-6143-4a8b-a55a-2fb70ff61491.png
 
 In this graph it can be clearly observed that in every month the number of successful campaigns of theater is larger than that of failed campaigns. The successes in the May is the highest. There is high successes in June and July also. Although, the success in February and April are the same, the fail in February is lower than the fail in April. So, among February and April, February is preferable to launch a theater campaign. Similarly, the success in April and August are almost the same, the fail in April is lower than the fail in August, which means April is preferable to launch a theater campaign rather than August.This information with the percentage of success is  visualized in the following table:
 
